@@ -37,7 +37,7 @@ public class Items_page extends Se_Wrappers {
 	public WebElement menubutton;
 		
 	public void clickmenubutton() {
-		waitforelementExplicitwait(menubutton, 5);
+		waitforelementExplicitwait(menubutton, 2);
 		clickElement(menubutton);	
 	}
 		
@@ -45,7 +45,7 @@ public class Items_page extends Se_Wrappers {
 	public WebElement addtocart;
 			
 	public void clickaddtocartbutton() {
-		waitforelementExplicitwait(addtocart, 5);
+		waitforelementExplicitwait(addtocart, 2);
 		clickElement(addtocart);		
 	}
 	
@@ -53,7 +53,7 @@ public class Items_page extends Se_Wrappers {
 	public WebElement resetAppstate;
 			
 	public void clickresetAppstatebutton() {
-		waitforelementExplicitwait(resetAppstate, 5);
+		waitforelementExplicitwait(resetAppstate, 2);
 		clickElement(resetAppstate);		
 	}
 	
